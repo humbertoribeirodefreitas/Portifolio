@@ -62,7 +62,7 @@ main {
     padding: 5px;
 }
 
-body > footer {
+body > footer  {
     border-top: 1px solid #6222cc;
     opacity: 0.4;
     margin: 0 auto;
@@ -81,7 +81,7 @@ body > footer:hover {
     opacity: 1;
 } 
 
-.gallery-element:hover img{
+.gallery-element:hover img {
     transform: scale(1.1);
     -webkit-box-shadow: 8px 9px 12px -1px rgba(98, 34, 204);
     -moz-box-shadow: 8px 9px 12px -1px rgba(98, 34, 204);
@@ -95,4 +95,9 @@ body > footer:hover {
         transform: scale: (1);
     
     }
+}
+div{
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
 }
